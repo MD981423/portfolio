@@ -1,0 +1,150 @@
+
+
+.protfolio{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+
+}
+.navlist li a:hover{
+    color: #ffa500;
+    background: transparent;
+    
+}
+.navlist{
+    display: flex;
+    gap: 3.5rem;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+     /* background-color: navy ; */
+    margin-left: 11rem;
+    
+    
+}
+.navlist li{
+    list-style: none;
+    
+}
+.navlist li a{
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: aliceblue;
+    /* font-style:; */
+    
+    
+    
+    
+}
+
+.left-container{
+    background-color: #394b39;
+    width: 70%;
+    padding: 3rem;
+
+}
+.right-container{
+    background:linear-gradient(-45deg,orange, #383838 70%);
+    width: 30%;
+}
+.left-container,.right-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.icons .fa-brands{
+    color: #c7c757;
+    font-size: 1.7rem;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     gap: 3rem; 
+
+}
+.content{
+    margin: 4rem;
+}
+.content .intro{
+    margin-left: 1.5rem;
+    color: aliceblue;
+    font-size: 30px;
+
+}
+.content .intro span{
+    color: #ffa500;
+}
+
+
+.content h1{
+    font-size: 3rem;
+    color: #ffa500;
+}
+.content .detail{
+    font-size: 1.1rem;
+    max-width: 38rem;
+    color: aliceblue;
+    margin: 1.1rem 0 3rem 0;
+    line-height: 1.5rem;
+}
+
+.btn-container button{
+    border: .2rem solid #ffa500;
+    font-size: 1.2rem;
+    padding: .8rem 1.2rem;
+    border-radius: .6rem;
+    cursor: pointer;
+}
+button:nth-child(1){
+    background: orange;
+    color: darkolivegreen;
+}
+button:nth-child(2){
+    background: transparent;
+    color: #ffa500;
+    margin-left: 2rem;
+}
+button:nth-child(1):hover{
+    /* background: transparent; */
+    color:#efeeec
+}
+button:nth-child(2):hover{
+    /* background: transparent; */
+    color: #efeeec;
+}
+.icons{
+
+}
+.design .circle{
+    aspect-ratio: 1;
+    position: absolute;
+    border-radius: 50%;
+    top: 55%;
+    left: 81%;
+    transform: translate(-50%,-50%);
+    
+    
+}
+.circle:nth-child(1){
+    background: linear-gradient(90deg,  #394b39 50%,#394b39 50%);
+    width: 25rem;
+}
+.circle:nth-child(2){
+    /* background: #efeeec; */
+    width: 20rem;
+    background-image: url(photo.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: .5rem solid#ffff;
+    box-shadow:
+    0 0 1rem #ffff,
+    inset 0 0 1rem #ffff,
+    0 0 2rem #ffa500,
+    inset 0 0 2rem #ffa500,
+    0 0 4rem #ffa500,
+    inset 0 0 4rem #ffa500
+}
